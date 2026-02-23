@@ -1,7 +1,5 @@
 # Microsoft Fabric: Advanced Real-Time Intelligence​​
 
-Overall Estimated Duration: 8 Hours
-
 ## Overview
 
 In this lab, you will gain hands-on experience with Microsoft Fabric Real-Time Intelligence by building an end-to-end streaming analytics solution across three progressive use cases. You will set up an Eventhouse and KQL database, ingest and transform real-time data using eventstreams, analyze streaming datasets with KQL, and create interactive dashboards for live monitoring and insights. Along the way, you will explore data enrichment, visualization, and basic automation concepts, helping you understand how to design scalable real-time analytics workflows in Fabric and turn live event data into actionable intelligence.
