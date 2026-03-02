@@ -126,9 +126,17 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 ## Managing Your Virtual Machine
 
-Feel free to **start, restart, or stop** (2) your virtual machine as needed from the **Resources** (1) tab. Your experience is in your hands!
-
-   ![](./media/gs5.png)
+- Please note that the lab is available for **3 days (72 hours)** from the time it is launched. Within these 3 days, **the VM can be used for a total of 24 hours**.
+ 
+- Once the lab starts, the 72-hour access period begins. However, the VM will only run for up to 24 hours in total, and these hours are counted only when the VM is actively running.
+ 
+- We recommend stopping or pausing the VM whenever it is not in use. This will help save the remaining VM hours so they can be used later within the 3-day period.  
+ 
+- Users can Stop/Start the VM from the "Resources" tab that is available from the Guide section as shown below:
+   - Start VM
+   - Stop VM
+     
+     ![](./media/gpxx.png)
 
 ## Let's Get Started with Azure Portal
 
