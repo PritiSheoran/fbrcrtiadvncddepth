@@ -320,7 +320,7 @@ In this task, you will create an Event Stream and add the Manufacturing data as 
 
      ![.](./media/ti10.png)
 
-1.  Navigate and select **Manufacturing Simulator** notebooks from **C:\LabFiles\fbrcrtiadvncddepth\Cloud-slice\Labfiles**and click on the **Open** button.
+1.  Navigate and select **Manufacturing Simulator** notebooks from **C:\LabFiles\Data\Files**and click on the **Open** button.
 
      ![](./media/ti11.png)
 
@@ -730,7 +730,7 @@ In this task, you will create an Event Stream and add the Manufacturing data as 
 
     ![](./media/tk12.png)
 
-4.  Navigate and select **Shipping Simulator** notebooks from **C:\LabFiles\fbrcrtiadvncddepth\Cloud-slice\Labfiles**and click on the **Open** button.
+4.  Navigate and select **Shipping Simulator** notebooks from **C:\LabFiles\Data\Files**and click on the **Open** button.
 
     ![](./media/tk13.png)
 
@@ -853,6 +853,7 @@ Summary:
 This use case focuses on helping Fabrikam, a global retail and e-commerce brand, overcome real-time operational challenges during periods of extreme demand and disruption. A sudden surge in customer traffic, combined with weather-related transit delays and manufacturing quality issues, exposes the lack of real-time visibility across Fabrikam’s supply chain and fulfillment operations.
 Using Microsoft Fabric Real-Time Intelligence, the solution integrates high-velocity data from multiple sources—including manufacturing telemetry, shipment events, e-commerce clickstream, weather data, and product information—into a single operational view. Eventstream, Eventhouse, KQL analytics, real-time dashboards, and Activator alerts work together to detect risks early, visualize live conditions, and trigger automated responses.
 The outcome is a proactive, real-time operational command center that enables Fabrikam to protect customer experience, reduce delays, prevent defective shipments, and maintain business continuity under rapidly changing conditions
+
 
 
 
