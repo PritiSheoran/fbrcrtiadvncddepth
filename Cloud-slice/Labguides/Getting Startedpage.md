@@ -176,7 +176,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 1. If you encounter any issue related to Fabric Capacity while performing as shown in the image below, kindly reach out to us using the support contact provided below.
 
-    ![](./media/fabcap.png)
+    ![](./media/fabcap1.png)
 
 ## Support Contact
 
