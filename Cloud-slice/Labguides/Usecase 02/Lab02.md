@@ -26,20 +26,15 @@ Fabrikam now needs real-time operational dashboards that enable proactive monito
 
 **Objectives**
 
-- **Connect Real-Time Data Sources**:  Integrate streaming data from sensors, IoT devices, or operational
-  systems into Fabric RTI using Eventstream.
+- Integrate streaming data from sensors, IoT devices, or operational systems into Fabric RTI using Eventstream.
 
-- **Design and Configure Dashboards**: Build dynamic dashboards in Power BI or Fabric that display live
-  metrics, alerts, and KPIs with minimal latency.
+- Build dynamic dashboards in Power BI or Fabric that display live metrics, alerts, and KPIs with minimal latency.
 
-- **Implement Real-Time Analytics**: Use KQL queries and transformations to process incoming data streams
-  and derive meaningful insights.
+- Use KQL queries and transformations to process incoming data streams and derive meaningful insights.
 
-- **Enable Alerts and Monitoring**: Configure real-time alerts for anomalies or threshold breaches to
-  support proactive decision-making.
+- Configure real-time alerts for anomalies or threshold breaches to support proactive decision-making.
 
-- **Validate Dashboard Performance**: Test the dashboard under simulated real-time conditions to ensure
-  responsiveness and accuracy.
+- Test the dashboard under simulated real-time conditions to ensure responsiveness and accuracy.
 
 # Exercise 1: Prepare and Transform Real-Time Operational Data
 
@@ -736,6 +731,7 @@ Fabrikam now needs real-time operational dashboards that enable proactive monito
 1. Click on the tab **Home** and then click on the button **Save**.
 
    ![](./media/kd39.1.png)
+
 
 
 
