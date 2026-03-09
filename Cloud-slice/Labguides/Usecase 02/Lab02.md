@@ -36,7 +36,7 @@ Fabrikam now needs real-time operational dashboards that enable proactive monito
 
 - Test the dashboard under simulated real-time conditions to ensure responsiveness and accuracy.
 
-# Please follow these steps to Resume the Fabric.
+## Fabric Management
 
 - Navigate to the **Azure Portal**. from the **Home** page, click on **Resource groups** under the **Navigate** section.
 
@@ -314,11 +314,11 @@ Fabrikam now needs real-time operational dashboards that enable proactive monito
 
 1. Create a new tab within the queryset by clicking on the **+ icon**
 
-1. In the query editor, copy and paste the following code. Click on  the **Run** button to execute the query. After the query is  executed, you will see the results.
+1. In the query editor, copy and paste the following code. Enter the table name you copied in Exercise 3 at the place of **//Replace with Table name** in the query, then click on  the **Run** button to execute the query. After the query is  executed, you will see the results.
    
     ```
     //click on jPath instead of inline when on payload, click on ProdId * copy path
-    products
+    //Replace with Table name
     | extend Operator = payload.op
     | where  Operator == ("c") 
     | extend ProductId = ['payload']['after']['ProductId']
@@ -329,7 +329,9 @@ Fabrikam now needs real-time operational dashboards that enable proactive monito
     | extend UnitCost = payload.after.UnitCost
     ```
 
-    ![](./media/kc14.png)
+    ![](./media/TName-1.png)
+
+     >**Note:** Table name will be either, Products or Products1.
 
 1. Create a new tab within the queryset by clicking on the **+ icon**.
 
@@ -350,11 +352,11 @@ Fabrikam now needs real-time operational dashboards that enable proactive monito
 
 1. Create a new tab within the queryset by clicking on the **+ icon**.
 
-1. In the query editor, copy and paste the following code. Click on the **Run** button to execute the query. After the query is executed, you will see the results.
+1. In the query editor, copy and paste the following code. Enter the table name you copied in Exercise 3 at the place of **//Replace with Table name** in the query, then click on  the **Run** button to execute the query. After the query is  executed, you will see the results.
     
       ```
       .set-or-append products_silver <|
-      products
+      //Replace with Table name
       | extend Operator = payload.op
       | where  Operator == ("c") 
       | extend ProductId = tostring(['payload']['after']['ProductId'])
@@ -366,7 +368,9 @@ Fabrikam now needs real-time operational dashboards that enable proactive monito
       | project ProductId, ProductName, SKU, Brand, Category, UnitCost
       ```
 
-      ![](./media/kc16.png)
+      ![](./media/TName-2.png)
+
+       >**Note:** Table name will be either, Products or Products1.
 
 1. Click on the icon **RealTimeWorkspace<inject key="DeploymentID" enableCopy="false" />** in the left toolbar and select **Eventhouse<inject key="DeploymentID" enableCopy="false" />**.
 
@@ -758,7 +762,7 @@ Fabrikam now needs real-time operational dashboards that enable proactive monito
 
    ![](./media/kd39.1.png)
 
-Please follow these steps to pause the Fabric.
+## Fabric Management
 
 - Navigate to the **Azure Portal**. from the **Home** page, click on **Resource groups** under the **Navigate** section.
 
@@ -775,6 +779,8 @@ Please follow these steps to pause the Fabric.
 - On the **Overview** page of the Fabric Capacity resource, click **Pause** from the top menu. Click **Yes** to pause the Fabric Capacity resource.
 
     ![](./media/1018.png)
+
+
 
 
 
